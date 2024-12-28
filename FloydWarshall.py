@@ -3,7 +3,6 @@ import numpy as np
 import multiprocessing as mp
 import time
 import matplotlib.pyplot as plt
-import multiprocessing as mp
 from functools import partial
 
 def create_random_graph(nodes=500, connection_prob=0.5):
