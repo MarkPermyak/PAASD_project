@@ -24,7 +24,7 @@ Using python library `multiprocessing`, the processing Pool is created where num
     ```
     `number_of_nodes` is a number of vertices in graph and by default is 500. 
 
-- Program will run the non-parallel algorithm and then parallel versions with number of processes in range `[2, 4, 6, 8, 10, 12]`. Every time it will print time of execution, speedup and check if sollutions are equal to a non-parallel solutions. After that it will plot graph and save it into `speedups.png`.
+- Program will run the non-parallel algorithm and then parallel versions with number of processes in range `[2, 4, 6, 8, 10, 12]`. Every time it will print time of execution, speedup and check if sollutions are equal to a non-parallel solution. After that it will plot graph and save it into `speedups.png`.
 
 
 ## Results
